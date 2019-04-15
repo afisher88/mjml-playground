@@ -1,0 +1,32 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome!</mj-title>
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <mj-attributes>
+      <mj-all font-family="Open Sans, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <!--Header-->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image src="./assets/hero.jpg" alt="" padding="0" />
+      </mj-column>
+    </mj-section>
+    <!--Body-->
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text>Dear {{NAME}}</mj-text>
+        <mj-text>Welcome to our company email!</mj-text>
+        <mj-text>Thanks</mj-text>
+        <mj-text>Company</mj-text>
+      </mj-column>
+    </mj-section>
+    <!--Footer-->
+    <mj-section background-color="#000">
+      <mj-column>
+        <mj-text color="#fff" align="center">&copy; 2019 My Company</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
